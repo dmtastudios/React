@@ -1,0 +1,19 @@
+/* The name of your CSS file should be the same name of your component/file name */
+/* NOTE: File extensions are different (Ex: Styles.js & Styles.css) */
+
+.Styles {
+    border: 10px solid rebeccapurple;
+  }
+  
+  /* Only applies the font-size and text-decoration styles to the h1 in the Styles component (NOT the h1 in the App component) */
+  .Styles h1 {
+    font-size: 100px;
+    text-decoration: underline;
+  }
+  
+  /* Applies the font-size, background-color, & text-align styles to the h2 in the Styles component (AKA The h2 with the '.Styles-farewell' class applied to it) */
+  .Styles-farewell {
+    font-size: 50px;
+    background-color: olivedrab;
+    text-align: center;
+  }
