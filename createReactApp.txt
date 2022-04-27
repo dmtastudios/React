@@ -1,0 +1,31 @@
+CREATE REACT APP
+
+Create React App is a simple Command Line (AKA Terminal) command to run which sets up everything we need to start creating a React Web App
+
+The command to run is...
+
+npx create-react-app app-name
+
+NOTE: The command will create a folder with all the React features inside it. This folder will be created inside of the folder that the command is run inside of. Also, what is put after the "create-react-app" (In this example "app-name") will be the name of the created folder. Finally, it is common practice to use all lowercase letters separated by hyphens (Example: my-app).
+
+Files in a create-react-app App...
+
+The "src" folder is where components are located. Each file should contain a single component with the same name as the file.
+
+Commands to start/compile the React App after it has been created...
+
+cd app-name
+npm start
+
+To stop the React App that is running in Terminal, press the following keys...
+
+Control + C
+
+
+Suggestions for what to remove after a React App is created using the create-react-app command...
+
+1. In the "src" folder
+  A. Delete everything inside of the App.css file, but do NOT delete the file
+  B. In the App.js file
+    I. Remove the logo import line at the top of the file
+    II. Remove everything between the opening and closing tags in the div

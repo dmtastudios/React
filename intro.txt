@@ -1,0 +1,19 @@
+REACT
+-React is a JavaScript Front-End library for building user interfaces (NOTE: Similar to React, Angular & Vue are Front-End frameworks that are used to for building user interfaces as well)
+
+NOTE: React has a lot of good documentation on their website (https://reactjs.org/)
+
+1. COMPONENTS
+-Components are the main building blocks of React
+
+2. TYPES OF COMPONENTS
+2a. CLASS COMPONENT
+-A Class Component is a Component created using a JavaScript Class
+
+2b. FUNCTION COMPONENT
+-A Function Component is a Component created using a JavaScript Function
+-Function Components use React Hooks which allows for features like State to be used
+-Function Components are the new/best way to create a React Component
+
+3. STATE
+-State is how data is maintained in a React Component
